@@ -1,0 +1,92 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  background: #eee;
+}
+
+.header {
+  background: #1f2937;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.logo {
+  color: #3882f6;
+  font-size: 30px;
+  font-weight: 900;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+li {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #3882f6;
+}
+
+.links {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  padding-right : 31px;
+}
+
+.info img {
+  width: 768px;
+  height: 444px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  background-color: #1f2937;
+  padding: 30px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+button.signup {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.text1 {
+  color: white;
+  font-size: 12px;
+}
+
+.headline {
+  padding: 30px;
+  margin-top: 33px;
+}
+
