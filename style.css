@@ -1,7 +1,7 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
-  background: #eee;
+  background: white;
 }
 
 .header {
@@ -40,6 +40,8 @@ a {
   color: #3882f6;
 }
 
+
+/* header menu */
 .links {
   display: flex;
   align-items: flex-end;
@@ -47,9 +49,10 @@ a {
   padding-right : 31px;
 }
 
+/* image size for homepage image. */
 .info img {
-  width: 768px;
-  height: 444px;
+  width: auto;
+  height: 400px;
 }
 
 .container {
@@ -75,14 +78,15 @@ button.signup {
 }
 
 .text {
-  color: white;
-  font-size: 40px;
+  color: #f9faf8;
+  font-size: 48px;
   font-weight: bold;
 }
 
 .text1 {
-  color: white;
+  color: #f9faf8;
   font-size: 12px;
+  padding: 12px;
 }
 
 .headline {
@@ -90,3 +94,107 @@ button.signup {
   margin-top: 33px;
 }
 
+.information {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+
+}
+
+.services {
+  max-width: 200px;
+}
+
+.information-heading {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 32px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.heading {
+  text-align: center;
+}
+
+/* images size for services */
+
+.services img {
+  width: 240px;
+  height: 240px;
+}
+
+.testimonial.main {
+  background-color: black;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  margin-top: 10px;
+  background-color: #e5e7eb;
+  font-style: italic;
+  font-weight: 36px;
+  color: #1f2937;
+  text-align: justify;
+}
+
+.testimonial2 {
+  font-weight: bold;
+  align-self: flex-end; 
+}
+
+.modal {
+  background-color: white;
+  padding: 75px;
+}
+
+.container2 {
+  padding: 10px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 100px;
+}
+
+.title-heading {
+  display: flex;
+  color: #f9faf8;
+  align-self: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: auto;
+}
+
+
+.small-text {
+  display: flex;
+  align-self:center;
+  color: #f9faf8;
+  font-size: 14px;
+  padding-left: auto;
+}
+
+button.signup2 {
+  background: #3882f6;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 10px;
+}
