@@ -125,8 +125,9 @@ button.signup {
   height: 240px;
 }
 
-.testimonial.main {
+.container3 {
   background-color: black;
+
 }
 
 .testimonial {
@@ -136,36 +137,40 @@ button.signup {
   padding: 50px;
   margin-top: 10px;
   background-color: #e5e7eb;
-  font-style: italic;
   font-weight: 36px;
   color: #1f2937;
   text-align: justify;
 }
 
+.testimonial1, .testimonial2 {
+  font-style: italic;
+  align-self: center;
+  text-align: justify; 
+}
+
 .testimonial2 {
-  font-weight: bold;
-  align-self: flex-end; 
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+
 }
 
 .modal {
   background-color: white;
   padding: 75px;
+  display: flex;
+  justify-content: center;
 }
 
 .container2 {
   padding: 10px;
   background-color: #3882f6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border: 100px;
 }
 
 .title-heading {
   display: flex;
   color: #f9faf8;
-  align-self: center;
+  align-self: flex-start;
   font-weight: bold;
   font-size: 25px;
   padding-left: auto;
@@ -174,7 +179,7 @@ button.signup {
 
 .small-text {
   display: flex;
-  align-self:center;
+  align-self: flex-start;
   color: #f9faf8;
   font-size: 14px;
   padding-left: auto;
