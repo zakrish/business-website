@@ -1,5 +1,5 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Roboto, Geneva, Tahoma, sans-serif;
   margin: 0;
   background: white;
 }
@@ -116,6 +116,8 @@ button.signup {
 
 .heading {
   text-align: center;
+  color: #3882f6;
+  font-size: bold;
 }
 
 /* images size for services */
@@ -123,12 +125,9 @@ button.signup {
 .services img {
   width: 240px;
   height: 240px;
+  border: 5px solid #3882f6;
 }
 
-.container3 {
-  background-color: black;
-
-}
 
 .testimonial {
   display: flex;
@@ -152,7 +151,6 @@ button.signup {
   display: flex;
   justify-content: flex-end;
   align-content: flex-end;
-
 }
 
 .modal {
